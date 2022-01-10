@@ -86,13 +86,13 @@ division(40, 2);
 
 //VERY HARD CHALLENGE-CREATE A SIMPLE CALCULATOR. FIRST PROMPT FOR A NUMBER, THEN AN OPERATOR, THEN ANOTHER NUMBER.
 //PROMPT FOR FIRST NUMBER
-let firstNum = prompt(" Please pick your first number ")
+let firstNum = Number(prompt(" Please pick your first number "))
 
 //prompt for operator
 let  operator = prompt(" Please Choose an operator (+, -, *, / ) ")
 
 //prompt for second number
-let secondNum = prompt(" Please pick your second number ")
+let secondNum = Number(prompt(" Please pick your second number "))
 let result;
 
 if (operator === '+') {
